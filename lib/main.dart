@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  // Runtime time constants
-  final int age;
-  age = 20;
-/*Final keyword lets us define variables whose values can be set once, even during runtime,
-* but then can't change after that*/
+  var names = {"Hrishi", "Patrick", "Ripley"}; // Sets can only consist of unique values
+  names.add("P");
+  names.add("Hrishi");
+  print(names);
   runApp(const MyApp());
 }
 
