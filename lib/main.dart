@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  var names = {"Hrishi", "Patrick", "Ripley"}; // Sets can only consist of unique values
-  names.add("P");
-  names.add("Hrishi");
-  print(names);
+  var person ={
+    "name":"Hrsihi",
+    "Age":15,
+  };
+  /*This will be of type Map<String,Object>
+  * Dart will try to look for the common denominator.
+  * For the keys this is String as all of them are of type string
+  * For values one is String & other is int, the common denominator is Object*/
   runApp(const MyApp());
 }
 
