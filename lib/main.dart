@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+// Compile time constants
+const int age = 27;
+const int twiceAge = age*2;
+/*Dart knows age is a const. so during compilation that value is taken & twiceAge is calculated
+* Therefore twiseAge is also a compile time const*/
+
 void main() {
   runApp(const MyApp());
 }
